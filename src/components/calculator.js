@@ -64,7 +64,7 @@ function Calculator() {
 
     return (
         <div className="frame">
-            <CalculatorTitle value="Calculator"v className="calculator-title" />
+            <CalculatorTitle value="Calculator" className="calculator-title" />
             <div className="mainCalc">
                 <OutputScreen question = {question} answer = {answer} />
                 <div className="button-row">
